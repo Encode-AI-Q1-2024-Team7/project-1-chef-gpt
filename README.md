@@ -1,8 +1,20 @@
-# project-1-chef-gpt
+# Encode AI Team 7: project-1-chef-gpt
 
-# Instructions
+## Project Description
 
-## 1) Setting up your keys
+An AI Chef GPT program that helps with the following:
+- Provides a detailed recipe if given a name of a dish
+- Suggests a dish to make based on listing one or more ingredients
+- Provides a critique based on the details you provided on a dish you made
+
+The AI Chef also has several personalities to choose from.
+
+
+## Instructions
+
+### 1. Clone git repo
+
+### 2. Setting up your keys
 
 1. Log in to [OpenAI](https://platform.openai.com/)
 2. Go to [API Keys](https://platform.openai.com/api-keys)
@@ -64,8 +76,8 @@
 10. Check if you have `sk-...` and not just `...`
 
 > For more instructions on how to complete this in different Operational Systems, go to <https://platform.openai.com/docs/quickstart/step-2-set-up-your-api-key>
-
-## 2) Setup Virtual Environment
+---
+### 3. Setup a Virtual Environment
 
 1. Setup a `Virtual Environment` for the project
    - [Tutorial](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
@@ -79,10 +91,10 @@
     ```
 4. Setup keys for recently created `Virtual Environment` (as needed).
 
+---
+### 4. Run Program
 
-## 3) Run Program
-
-Run from the root directory: 
+Run from the root directory of the cloned repo: 
 ```text
 python -m chef_gpt
 ```
