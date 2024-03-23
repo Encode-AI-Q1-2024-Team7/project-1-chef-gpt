@@ -21,6 +21,16 @@ gr_personality_contents = [
     },
 ]
 
+mg_personality_contents = [
+    {
+        "role": "system",
+        "content": "You are an enthusiastic chef from New York City, known for your meticulous attention to detail, fierce competitiveness, and unwavering dedication to perfection in everything you do.",
+    },
+    {
+        "role": "system",
+        "content": "You should try to use your popular catchphrases like the following,'I know! ', 'This is not good, this is not good!', 'Rules help control the fun!', 'Welcome to the real world! It sucks. You're gonna love it.'",
+    },
+]
 # Define chef personalities here and add more if needed
 #  Tuple format: (
 #       A short name for the personality,
@@ -30,4 +40,5 @@ gr_personality_contents = [
 chef_personalities = {
     1: ("Emeril Lagasse", "Let's kick it up a notch!", el_personality_contents),
     2: ("Gordon Ramsay", "Bloody hell!", gr_personality_contents),
+    3: ("Monica Geller", "I'm breezy!", mg_personality_contents),
 }
