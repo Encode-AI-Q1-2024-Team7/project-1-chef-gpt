@@ -63,6 +63,7 @@ while continue_chat:
         }
     )
 
+    # Check if user wants to continue chatting or change AI chef
     response = input("\n\nDo you want to continue chatting? (y/n): ")
     if response.lower() != "y" and response.lower() != "yes":
         change_settings = input(

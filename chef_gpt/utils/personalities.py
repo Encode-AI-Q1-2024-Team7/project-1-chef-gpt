@@ -1,3 +1,4 @@
+# Content for the personality using OpenAI guidelines or lesson-04 of the course
 el_personality_contents = [
     {
         "role": "system",
@@ -21,6 +22,11 @@ gr_personality_contents = [
 ]
 
 # Define chef personalities here and add more if needed
+#  Tuple format: (
+#       A short name for the personality,
+#       A simple catchphrase used in the program or just enter empty quotes "",
+#       Content for the personality using OpenAI guidelines
+#   )
 chef_personalities = {
     1: ("Emeril Lagasse", "Let's kick it up a notch!", el_personality_contents),
     2: ("Gordon Ramsay", "Bloody hell!", gr_personality_contents),
