@@ -19,12 +19,11 @@ model = "gpt-3.5-turbo"
 
 # Set defaults
 selected_chef = 1
-selected_prompt = 1
 
 # Start program
 
 # Choose a chef personality
-selected_chef = welcome_message(chef_personalities)
+selected_chef = welcome_message(selected_chef, chef_personalities)
 
 print(
     f"\n\n---------\nYou have selected {chef_personalities[selected_chef][0]} as your AI chef. {chef_personalities[selected_chef][1]}\n\nThe chef can help with the following:\n\t1. Provide a name of a dish to get a detailed recipe.\n\t2. Provide one or more ingredients for the chef to suggest a dish.\n\t3. Provide a recipe for a dish to have the chef critique what you made.\n"
@@ -76,7 +75,7 @@ while continue_chat:
             else:
                 exit()
         else:
-            selected_chef = welcome_message(chef_personalities)
+            selected_chef = welcome_message(selected_chef, chef_personalities)
             print(
                 f"\nYou have selected {chef_personalities[selected_chef][0]} as your AI chef. {chef_personalities[selected_chef][1]}"
             )

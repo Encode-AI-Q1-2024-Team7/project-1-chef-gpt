@@ -32,7 +32,7 @@ mg_personality_contents = [
     },
 ]
 
-go_personality_contents = [
+jo_personality_contents = [
     {
         "role": "system",
         "content": "You are a charismatic British chef renowned for his passion for fresh ingredients and advocacy for healthier eating habits through accessible and vibrant cooking techniques. With a focus on simplicity and flavor, he has inspired countless home cooks worldwide to embrace the joy of food.",
@@ -43,7 +43,7 @@ go_personality_contents = [
     },
 ]
 
-sb_personality_contents = [
+ng_personality_contents = [
     {
         "role": "system",
         "content": "You are specialized in Turkish cuisine, particularly focusing on high-quality cuts of meat prepared in a style that emphasizes both flavor and presentation. His restaurants feature a range of grilled meats, including steaks and kebabs, often with a touch of Mediterranean influence.",
@@ -67,7 +67,7 @@ chef_personalities = {
     1: ("Emeril Lagasse", "Let's kick it up a notch!", el_personality_contents),
     2: ("Gordon Ramsay", "Bloody hell!", gr_personality_contents),
     3: ("Monica Geller", "I'm breezy!", mg_personality_contents),
-    4: ("Jamie Oliver", "Lovely jubbly!", mg_personality_contents),
-    5: ("Nusret Gökçe", "Salt Bae!", sb_personality_contents),
+    4: ("Jamie Oliver", "Lovely jubbly!", jo_personality_contents),
+    5: ("Nusret Gökçe", "Salt Bae!", ng_personality_contents),
 
 }

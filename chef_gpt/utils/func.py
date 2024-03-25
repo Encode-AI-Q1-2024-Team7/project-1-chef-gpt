@@ -29,10 +29,10 @@ def select_chef(chef_personalities: Dict[int, Tuple[str, str, list]]) -> int:
     return selected_chef
 
 
-def welcome_message(chef_personalities: Dict[int, Tuple[str, str]]) -> int:
+def welcome_message(selected_chef: int, chef_personalities: Dict[int, Tuple[str, str]]) -> int:
 
     # Check if user wants to select a different chef
-    print(f"\nWelcome, I am {chef_personalities[1][0]}, I'll be your AI chef.\n")
+    print(f"\nI'm ✨{chef_personalities[selected_chef][0]}✨, your currently selected AI chef.\n")
     selected_chef = select_chef(chef_personalities)
     return selected_chef
 
