@@ -8,7 +8,14 @@ An AI Chef GPT program that helps with the following:
 - Provides a critique based on the details you provided on a dish you made
 
 The AI Chef also has several personalities to choose from.
+  1. Emeril Lagasse
+  2. Gordon Ramsay
+  3. Monica Geller
+  4. Jamie Oliver
+  5. Nusret Gökçe
 
+### Sample Demo
+https://github.com/Encode-AI-Q1-2024-Team7/project-1-chef-gpt/assets/105133922/68c3caa1-9cf0-4b05-bdc4-2e3f1b69dba7
 
 ## Instructions
 
