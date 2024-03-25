@@ -7,7 +7,7 @@ An AI Chef GPT program that helps with the following:
 - Suggests a dish to make based on listing one or more ingredients
 - Provides a critique based on the details you provided on a dish you made
 
-The AI Chef also has several personalities to choose from.
+The AI Chef also has several personalities to choose from that affects the tone of the responses.
   1. Emeril Lagasse
   2. Gordon Ramsay
   3. Monica Geller
